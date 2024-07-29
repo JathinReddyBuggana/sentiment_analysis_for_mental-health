@@ -15,8 +15,8 @@ st.write('This app performs sentiment analysis on mental health statements.')
 
 
 
-model = pickle.load(open(r"C:\Users\jathi\mh.pkl",'rb'))
-bow = pickle.load(open(r"C:\Users\jathi\bow1.pkl",'rb'))
+model = pickle.load(open("mh.pkl",'rb'))
+bow = pickle.load(open("bow1.pkl",'rb'))
 
 
 
